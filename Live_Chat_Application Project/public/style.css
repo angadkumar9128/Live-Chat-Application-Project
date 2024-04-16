@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align:left;
+    background-image: url("rainy-day-raining.gif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    background-image: url(background-r4tz04b0l8kqi6do.gif);
+}
+h1{
+    text-align: center;
+    font-size: 32px;
+    color:violet;
+    background-color: purple;
+}
+
+#inputMessage {
+    width: 86%;
+    padding:10px;
+    margin-left: 35PX;
+    margin-right: 8PX;
+    resize:vertical; /* Allow vertical resizing only */
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: height 0.2s; /* Smooth animation when resizing */
+}
+
+#inputMessage{
+    border-color: #007bff;
+    box-shadow: 0 0 5px #007bff;
+}
+
+
+#sendMessage {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+#chat {
+    color:white;
+    font-size: 24px;
+
+
+}
